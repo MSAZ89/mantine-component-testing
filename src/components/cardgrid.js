@@ -7,7 +7,7 @@ export default function Cardgrid () {
 
     return(
         <SimpleGrid 
-        cols={4} 
+        cols={3} 
         spacing="xl"
         breakpoints={[
             { maxWidth: 980, cols: 3, spacing: 'md' },

@@ -1,6 +1,6 @@
 # This is a basic react project using <a href="https://mantine.dev/pages/getting-started/" target="_blank">Mantine Components</a> #
 
-
+## I'm just testing these for fun and haven't used in any real projects as of date.
 
 # Getting Started with Create React App
 

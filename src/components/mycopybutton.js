@@ -5,7 +5,7 @@ export default function MyCopyButton(props) {
     <CopyButton value={props.copy}>
       {({ copied, copy }) => (
         <>
-            <Button color={copied ? 'teal' : 'blue'} onClick={copy}>
+            <Button variant={props.variant} color={copied ? 'teal' : 'blue'} onClick={copy}>
             {copied ? 'Copied Text!' : "Copy Text"}
             </Button>
         </>

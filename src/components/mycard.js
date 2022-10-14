@@ -7,11 +7,11 @@ export default function MyCard(props) {
             <Image
             src={props.imageurl}
             height={160}
-            alt="Norway"
+            alt="missing image alt"
             />
         </Card.Section>
 
-        <Group position="apart" mt="md" mb="xs">
+        <Group position="center" mt="md" mb="xs">
             <Text weight={500}>{props.title}</Text>
             <Badge variant="gradient" gradient={{ from: 'red', to: 'gold' }}>
                 {props.badgetext}
