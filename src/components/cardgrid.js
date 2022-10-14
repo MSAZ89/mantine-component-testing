@@ -19,42 +19,48 @@ export default function Cardgrid () {
             bookingtext={bookNowButtonText} 
             content="text content" 
             imageurl="https://picsum.photos/450"
-            badgetext="Newest"
+            badgetext="Available 10/01/2022"
+            variant="stacked"
             />
             <MyCard 
             title="Some Amazing Vacation #2" 
             bookingtext={bookNowButtonText}
             content="text content" 
             imageurl="https://picsum.photos/470"
-            badgetext="New"
+            badgetext="Available 10/02/2022"
+            variant="stacked"
             />
             <MyCard 
             title="Some Amazing Vacation #3" 
             bookingtext={bookNowButtonText} 
             content="text content" 
             imageurl="https://picsum.photos/480"
-            badgetext="Old"
+            badgetext="Available 10/03/2022"
+            variant="stacked"
             />
             <MyCard 
             title="Some Amazing Vacation #4" 
             bookingtext={bookNowButtonText} 
             content="text content" 
             imageurl="https://picsum.photos/450"
-            badgetext="Old"
+            badgetext="Available 10/03/2022"
+            variant="stacked"
             />
             <MyCard 
             title="Some Amazing Vacation #5" 
             bookingtext={bookNowButtonText} 
             content="text content" 
             imageurl="https://picsum.photos/470"
-            badgetext="Old"
+            badgetext="Available 10/03/2022"
+            variant="stacked"
             />
             <MyCard 
             title="Some Amazing Vacation #6" 
             bookingtext={bookNowButtonText}
             content="text content" 
             imageurl="https://picsum.photos/480"
-            badgetext="Oldest"
+            badgetext="Available 10/03/2022"
+            variant="stacked"
             />
         </SimpleGrid>
     )

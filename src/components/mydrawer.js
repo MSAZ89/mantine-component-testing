@@ -30,8 +30,9 @@ export default function MyDrawer() {
             <MyCard 
             imageurl="https://picsum.photos/450" 
             bookingtext="Continue for $9.99/mo"
-            badgetext="Newly Added"
+            badgetext="Continue with subsciption"
             content={<p>A popup subscription drawer. <br/>ESC to exit, click "No Thanks", or press the x in the top right corner.</p>}
+            variant="side"
             />
             <div></div>
         </SimpleGrid>
