@@ -1,5 +1,5 @@
 import { ThemeIcon, RingProgress, Text, Center, Group } from '@mantine/core';
-import { IconCheck } from '@tabler/icons';
+import { IconCheck, IconX } from '@tabler/icons';
 
 export default function MyRingProgress() {
   return (
@@ -49,6 +49,17 @@ export default function MyRingProgress() {
           <Center>
             <ThemeIcon color="teal" variant="light" radius="xl" size="xl">
               <IconCheck size={22} />
+            </ThemeIcon>
+          </Center>
+        }
+      />
+
+      <RingProgress
+        sections={[{ value: 0, color: 'red' }]}
+        label={
+          <Center>
+            <ThemeIcon color="red" variant="light" radius="xl" size="xl">
+              <IconX size={22} />
             </ThemeIcon>
           </Center>
         }

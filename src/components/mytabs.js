@@ -7,6 +7,8 @@ import MyDrawer from './mydrawer';
 import MyStepper from './mystepper';
 import MyHoverCardGrid from './myhovercardgrid';
 import MyRingProgress from './myringprogress';
+import MyModal from './mymodel';
+import MyOverlay from './myoverlay';
 
 export default function MyTabs() {
   return (
@@ -20,6 +22,8 @@ export default function MyTabs() {
         <Tabs.Tab value="hovercard" icon={<IconAppWindow size={18} />}>Hover Card</Tabs.Tab>
         <Tabs.Tab value="stepper" icon={<IconAppWindow size={18} />}>Stepper</Tabs.Tab>
         <Tabs.Tab value="ringprogress" icon={<IconAppWindow size={18} />}>Ring Progress</Tabs.Tab>
+        <Tabs.Tab value="modal" icon={<IconAppWindow size={18} />}>Modal</Tabs.Tab>
+        <Tabs.Tab value="overlay" icon={<IconAppWindow size={18} />}>Overlay</Tabs.Tab>
       </Tabs.List>
 
       <Tabs.Panel className="tab-content" value="home" pt="xs">
@@ -59,6 +63,16 @@ export default function MyTabs() {
       <Tabs.Panel className="tab-content" value="ringprogress" pt="xs">
         <Text size="md">Ring Progress</Text>
         <MyRingProgress />
+      </Tabs.Panel>
+
+      <Tabs.Panel className="tab-content" value="modal" pt="xs">
+        <Text size="md">Modal</Text>
+        <MyModal title="Card Grid Modal" withCloseButton={true} content={<Cardgrid/>} />
+      </Tabs.Panel>
+
+      <Tabs.Panel className="tab-content" value="overlay" pt="xs">
+        <Text size="md">Overlay</Text>
+        <MyOverlay content={<Cardgrid/>} />
       </Tabs.Panel>
 
     </Tabs>

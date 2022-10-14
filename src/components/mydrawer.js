@@ -12,7 +12,7 @@ export default function MyDrawer() {
         onClose={() => setOpened(false)}
         title=""
         padding="xl"
-        size="xl"
+        size="full"
         position="top"
         overlayColor={"#f3f3f3"}
       >

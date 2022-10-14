@@ -1,6 +1,7 @@
 import { Button, SimpleGrid, ActionIcon  } from '@mantine/core';
 import { IconDatabase, IconSettings } from '@tabler/icons';
 import MyCopyButton from './mycopybutton';
+import MyMenuButton from './mymenubutton';
 
 export default function MyButtons() {
   return (
@@ -33,6 +34,8 @@ export default function MyButtons() {
 
           <MyCopyButton variant="outline" copy="This is copied text!" />
           <MyCopyButton variant="default" copy="This is copied text 2!" />
+
+          <MyMenuButton />
 
           <ActionIcon variant="default"><IconSettings size={16} /></ActionIcon>
           <ActionIcon 
