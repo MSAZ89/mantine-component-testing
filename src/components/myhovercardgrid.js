@@ -20,7 +20,7 @@ export default function MyHoverCardGrid() {
             bookingtext="Book Now" 
             content="Sweet Vacation Text?" 
             imageurl="https://picsum.photos/450"
-            badgetext="Luxury Vacation"/>
+            badge="Luxury Vacation"/>
           }/>
           
           <MyHoverCard 
@@ -32,7 +32,7 @@ export default function MyHoverCardGrid() {
             bookingtext="Book Now" 
             content="Sweet Vacation Text 2?" 
             imageurl="https://picsum.photos/451"
-            badgetext="Luxury Vacation 2"/>
+            badge="Luxury Vacation 2"/>
           }/>
 
           <MyHoverCard 
@@ -44,7 +44,7 @@ export default function MyHoverCardGrid() {
             bookingtext="Book Now" 
             content="Sweet Vacation Text 3?" 
             imageurl="https://picsum.photos/452"
-            badgetext="Luxury Vacation 3"/>
+            badge="Luxury Vacation 3"/>
           }/>
         </SimpleGrid>
   )
