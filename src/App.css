@@ -29,3 +29,13 @@
 .mb-4 {
   margin-bottom: 4px;
 }
+
+.testdivs {
+  background-color: rgb(235, 235, 235);
+  color: #333;
+  font-weight: 300;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 0 auto;
+}

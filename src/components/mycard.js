@@ -19,7 +19,7 @@ export default function MyCard(props) {
                     <Group position="center" mt="md" mb="xs">
                         <Text weight={500}>{props.title}</Text>
                         <Badge variant="gradient" gradient={{ from: 'blue', to: 'blue' }}>
-                            {props.badgetext}
+                            {props.badge}
                         </Badge>
                     </Group>
                     <Text size="sm" color="dimmed">
